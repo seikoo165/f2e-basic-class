@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 網頁整體 */
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        body {
+            margin: 0;
+        }
+        .wrapper {
+            background-color: black;
+            color: white;
+        }
+        /* 文字框 */
+        .border {
+            border-style: solid;
+            border-color: rgba(0, 255, 255, 0.541);
+            border-width: 4px;
+        }
+        .bg-primary {
+            background-color: rgba(5, 104, 129, 0.301);
+        }
+        /* 文字 */
+        .mb-1 {
+            margin-bottom: 4px;
+        }
+        .p-0 {
+            padding: 0;
+        }
+        .title {
+            color: rgba(0, 217, 255, 0.884);
+            font-size: 24px;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .textcolor-orange {
+            color: orange;
+        }
+        .textcolor-green {
+            color: rgba(30, 255, 0, 0.726);
+        }
+        h2 {
+            font-size: 20px;
+        }
+        /* 圖片 */
+        .img-wrapper {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- 標題 -->
+        <h1 class="title text-center">自我介紹</h1>
+        <h2 class="text-center">
+            <span class="textcolor-orange">暱稱:</span>
+            <span class="textcolor-green">seikoo165</span>
+        </h2>
+        <!-- 其餘資訊 -->
+        <div class="mb-1 border bg-primary">
+            <ul class="p-0">
+                <li>
+                    <span class="textcolor-orange">身高:</span>
+                    <span class="textcolor-green">170</span>
+                </li>
+                <li>
+                    <span class="textcolor-orange">體重:</span>
+                    <span class="textcolor-green">60左右</span>
+                </li>
+            </ul>
+            <div>
+                <span class="textcolor-orange">生日:</span>
+                <span class="textcolor-green">12/10</span>
+                <br/>
+                <span class="textcolor-orange">興趣:</span>
+                <span class="textcolor-green">打遊戲</span>
+            </div>
+            <p class="textcolor-orange">
+                職業:
+                <sapn class="textcolor-green">
+                無
+                </sapn>
+            </p>
+            <!-- 圖片 -->
+            <img class="img-wrapper" src="./assets/forgyubiyubi.png">
+        </div>
+    </div>
+</body>
+</html>
